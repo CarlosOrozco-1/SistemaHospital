@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `Usuarios` (
 -- Rol
 CREATE TABLE IF NOT EXISTS `Rol` (
   `idRol` INT(11) NOT NULL AUTO_INCREMENT,
-  `Rolcol` VARCHAR(45) NOT NULL,
+  `NombreRol` VARCHAR(45) NOT NULL,
   `Usuarios_idUsuarios` INT(11) NOT NULL,
   PRIMARY KEY (`idRol`),
   INDEX `fk_Rol_Usuarios1_idx` (`Usuarios_idUsuarios`),
