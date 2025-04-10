@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS `Paciente` (
   `Apellido` VARCHAR(45) NOT NULL,
   `FechaNacimiento` DATE NOT NULL,
   `TipoSangre` VARCHAR(3) NOT NULL,
-  `Dirección` VARCHAR(120) NOT NULL,
+  `Direccion` VARCHAR(120) NOT NULL,
   `Telefono` VARCHAR(45) NOT NULL,
   `CorreoElectronico` VARCHAR(120) NOT NULL,
   PRIMARY KEY (`idPaciente`),
